@@ -14,8 +14,8 @@
 }
 
 .logo span {
-    color: #B74B4B;
-    text-shadow: 0 0 10px #B74B4B;
+    color: #48038C;
+    text-shadow: 0 0 10px #48038C;
 }
 
 .hamburg,
@@ -51,7 +51,7 @@
     left: 0;
     width: 0%;
     height: 3px;
-    background-color: #B74B4B;
+    background-color: #48038C;
     transition: 0.2s linear;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .nav-container .links a:hover {
-    color: #B74B4B;
+    color: #48038C;
 }
 
 .dropdown {
@@ -86,7 +86,7 @@
 }
 
 .dropdown .links a:hover {
-    background-color: #B74B4B;
+    background-color: #48038C;
 }
 
 section .main-container {
@@ -101,12 +101,13 @@ section .main-container {
     height: 80vh;
     border-radius: 100%;
     overflow: hidden;
-    box-shadow: 0 0 50px #B74B4B; 
+    box-shadow: 0 0 50px #48038C; 
 }
 
 .main-container .image img {
     width: 100%;
-    
+    height: 100%;
+    object-fit: cover;
 }
 
 .main-container .image:hover {
@@ -138,8 +139,8 @@ section .main-container {
 }
 
 .content h1 span {
-    color: #B74B4B;
-    text-shadow: 0 0 10px #B74B4B;
+    color: #48038C;
+    text-shadow: 0 0 10px #48038C;
 }
 
 .content .typewriter {
@@ -147,8 +148,8 @@ section .main-container {
 }
 
 .content .typewriter-text {
-    color: #B74B4B;
-    text-shadow: 0 0 10px #B74B4B;
+    color: #48038C;
+    text-shadow: 0 0 10px #48038C;
 }
 
 .content p {
@@ -163,9 +164,9 @@ section .main-container {
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #B74B4B;
+    border: 0.2rem solid #48038C;
     border-radius: 50%;
-    color: #B74B4B;
+    color: #48038C;
     margin: 5px 15px;
     font-size: 1.5rem;
     transform: 0.2s linear;
@@ -174,15 +175,15 @@ section .main-container {
 .social-links i:hover {
     scale: 1.3;
     color: #000;
-    background-color: #B74B4B;
-    filter: drop-shadow(0 0 10px #B74B4B);
+    background-color: #48038C;
+    filter: drop-shadow(0 0 10px #48038C);
 }
 
 .content button {
     width: 50%;
     height: 6vh;
     margin: 30px;
-    background-color: #B74B4B;
+    background-color: #48038C;
     color: #FFF;
     border: none;
     outline: none;
@@ -194,11 +195,11 @@ section .main-container {
 
 .content button:hover {
     scale: 1.1;
-    color: #B74B4B;
-    border: 2px solid #B74B4B;
+    color: #48038C;
+    border: 2px solid #48038C;
     background-color: transparent;
     font-weight: 700;
-    box-shadow: 0 0 40px #B74B4B;
+    box-shadow: 0 0 40px #48038C;
 }
 
 /* About */
@@ -235,7 +236,7 @@ section .title span::after {
     position: absolute;
     height: 3px;
     width: 100%;
-    background: #B74B4B;
+    background: #48038C;
     left: 0;
     bottom: 0;
 }
@@ -284,7 +285,7 @@ section .buutton button {
     border-radius: 4px;
     font-size: 25px;
     font-weight: 400;
-    background: #B74B4B;
+    background: #48038C;
     color: #FFF;
     border: 2px solid transparent;
     cursor: pointer;
@@ -292,9 +293,9 @@ section .buutton button {
 }
 
 section .button button:hover {
-    border-color: #B74B4B;
+    border-color: #48038C;
     background-color: #FFF;
-    color: #B74B4B;
+    color: #48038C;
 }
 
 .skills {
@@ -353,12 +354,12 @@ section .button button:hover {
 
 .skills-details .box .topic {
     font-size: 20px;
-    color: #B74B4B;
+    color: #48038C;
 }
 
 .skills-details .boxes .per {
     font-size: 60px;
-    color: #B74B4B;
+    color: #48038C;
 }
 
 .services .boxes {
@@ -380,14 +381,14 @@ section .button button:hover {
 }
 
 .services .boxes .box:hover {
-    background: #B74B4B;
+    background: #48038C;
     color: #FFF;
 }
 
 .services .boxes .box .icon {
     height: 50px;
     width: 50px;
-    background-color: #B74B4B;
+    background-color: #48038C;
     border-radius: 50%;
     text-align: center;
     line-height: 50px;
@@ -399,7 +400,7 @@ section .button button:hover {
 
 .boxes .box:hover .icon {
     background-color: #FFF;
-    color: #B74B4B;
+    color: #48038C;
 }
 
 .services .boxes .box:hover .topic,
@@ -430,6 +431,10 @@ section .button button:hover {
     margin: auto;
 }
 
+.contact .text p{
+    color: #FFF;
+}
+
 footer .text span {
     font-size: 17px;
     font-weight: 400;
@@ -450,7 +455,7 @@ footer .text span a:hover {
     bottom: 20px;
     right: 20px;
     color: #FFF;
-    background: #B74B4B;
+    background: #48038C;
     padding: 7px 12px;
     font-size: 18px;
     border-radius: 6px;
@@ -553,6 +558,6 @@ footer .text span a:hover {
     }
     .skills-details .boxes .per {
         font-size: 50px;
-        color: #B74B4B;
+        color: #48038C;
     }
 }

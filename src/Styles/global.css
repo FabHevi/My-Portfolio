@@ -27,13 +27,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #B74B4B;
+    background: #48038C;
     border-radius: 12px;
     transition: all 0.3 ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #B74B4B;
+    background-color: #48038C;
 }
 
 nav {
@@ -47,7 +47,7 @@ section {
 }
 
 footer {
-    background: #B74B4B;
+    background: #48038C;
     padding: 15px 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
